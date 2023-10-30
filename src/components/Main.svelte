@@ -26,7 +26,7 @@
                     My <span class="text-violet-400">favorite tech</span> includes Python (unnittest or Pytest) and Javascript (React.js or Next.js), MERN Stack + TailwindCSS 
                 </p>
                 <a 
-                    class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
+                    class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
                     href="#"
                     target="_blank"
                 >
