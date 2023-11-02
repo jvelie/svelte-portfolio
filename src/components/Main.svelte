@@ -23,7 +23,7 @@
                 <span class="poppins text-violet-400">Developer</span>
             </h2>
                 <p class="text-base sm:text-lg md:text-xl">
-                    My <span class="text-violet-400">favorite tech</span> includes Python (unnittest or Pytest) and Javascript (React.js or Next.js), MERN Stack + TailwindCSS 
+                    My <span class="text-violet-400">favorite tech</span> includes Python and Javascript (React.js or Next.js) MERN Stack + TailwindCSS 
                 </p>
                 <a 
                     class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
@@ -40,9 +40,7 @@
                 <img src={"images/BLANK CHARACTER 1.png"} alt="Profile image" class="object-cover z-[2] max-h-[70vh]"/>
             </div>
     </section>
-    
-    
-    
+
     <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-lg sm:text-xl md:text-2xl">
@@ -74,6 +72,7 @@
             </Step>
         </div>
     </section>
+
     <section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
         <div 
             class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
