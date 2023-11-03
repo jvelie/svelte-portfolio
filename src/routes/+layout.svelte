@@ -9,6 +9,7 @@
 
   function goTop() {
     document.body.scroll
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 </script>
 

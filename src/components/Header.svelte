@@ -14,7 +14,7 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        Deployed on Vercel and built with <b class="font-bold poppins">Svelte</b>
+        Built with <b class="font-bold poppins">Svelte</b>
     </h1>
     <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
         {#each tabs as tab, index}
