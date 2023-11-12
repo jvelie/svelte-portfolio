@@ -5,7 +5,7 @@
         Connect with me &darr;
     </p>
     <div class="flex flex-col gap-4 items-center justify-center">
-        <p><b class="pr-2">Email:</b> justinsmith@duck.com</p>
+        <p><b class="pr-2">Email:</b> contact@jvelie.com</p>
         <p>
             <b class="pr-2">GitHub:</b>
             <a href="https://github.com/jvelie" target="_blank" class="text-violet-400"

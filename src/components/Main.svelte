@@ -2,15 +2,15 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        { name: 'Pet name generator', icon: 'fa-solid fa-paw'},
-        { name: 'Youtube Summary', icon: 'fa-brands fa-youtube'},
-        { name: 'Nasa APOD Image', icon: 'fa-solid fa-rocket'},
+        { name: 'Pet name generator', icon: 'fa-solid fa-paw', href: 'https://github.com/jvelie/langchain-streamlit-app'},
+        { name: 'Youtube Summary', icon: 'fa-brands fa-youtube', href: 'https://github.com/jvelie/langchain-llm-app'},
+        { name: 'OpenAI Chat Widget', icon: 'fa-solid fa-comment'},
     ];
     
     let benefits = [
         {name: 'self taught developer', description: 'I self-taught coding through freely available online resources and quickly became captivated by the blend of creativity and problem-solving involved in crafting and engineering novel digital experiences. Beginning with JavaScript, HTML & CSS, I gradually expanded my skill set to encompass Python & JavaScript frameworks, backend development, cloud services, and other tech domains.'},
         {name: 'obsessed tinker', description: 'With an innate curiosity and a hands-on approach, I thrive on dissecting gadgets and systems to understand their core functionalities. The joy of tweaking, fixing, and re-engineering is a perpetual journey of discovery that fuels my obsession with the ever-evolving tech landscape.'},
-        {name: 'excellent automator', description: 'Harnessing the power of code to streamline operations and enhance efficiency, I excel in creating automation solutions that transcend conventional boundaries. My knack for identifying repetitive tasks and architecting robust automated systems frees up valuable time, reducing human error, and propelling projects forward with unparalleled efficiency.'},
+        {name: 'intergrations', description: 'Skilled in diverse technology integrations, I excel at implementing solutions across platforms such as AWS, GCP and other cloud products.'},
     ]
 
 </script>
@@ -23,7 +23,7 @@
                 <span class="poppins text-violet-400">Developer</span>
             </h2>
                 <p class="text-base sm:text-lg md:text-xl">
-                    My <span class="text-violet-400">favorite tech</span> includes Python and Javascript (React.js or Next.js) MERN Stack + TailwindCSS 
+                    My <span class="text-violet-400">favorite tech</span> includes Python and Javascript (React.js or Next.js) MERN Stack + TailwindCSS
                 </p>
                 <a 
                     class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
@@ -67,8 +67,8 @@
                 </strong> All you need is a YT link</p>
             </Step>
             <Step step={steps[2]}>
-                <p>Nasa APOD displays an Astronmy image using <strong class="text-violet-400">NasaAPI, Requests, Dotenv, and File handling.  
-                </strong> The split() method stores original filename</p>
+                <p>OpenAI Emedded Chat Widget with tailored fine-tuning using <strong class="text-violet-400">, OpenAI, JavaScript, Firebase, Vercel, and Pollygot.   
+                </strong> Project is currently under construction</p>
             </Step>
         </div>
     </section>
@@ -79,7 +79,7 @@
         >
             <h6 class="text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-violet-400">about</span> me.
+                <span class="poppins text-violet-400">About</span> me
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I am . . .</p>
@@ -100,7 +100,7 @@
                 </div>
             {/each}
         </div>
-        <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">The <span class="text-violet-400 poppins">Complete</span> Package</h5>
+        <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">Your <span class="text-violet-400 poppins">Complete</span> Package</h5>
         <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full">
             <table class="bg-white text-slate-700 rounded text-center">
                 <thead class="border-b border-solid border-slate-200">
@@ -114,28 +114,28 @@
                 </thead>
                 <tbody>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">Dedication</td>
+                        <td class="border-r border-solid border border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">Data Stuctures & Algorithms</td>
                         <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
                         <td><i class="fa-solid fa-check text-slate-500"></i></td>
                         <td><i class="fa-solid fa-check text-slate-500"></i></td>
                         <td><i class="fa-solid fa-check text-green-500"></i></td>
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">Critical thinking</td>
+                        <td class="border-r border-solid border border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">Cloud-based intergrations</td>
                         <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
                         <td><i class="fa-solid fa-check text-slate-500"></i></td>
                         <td><i class="fa-solid fa-check text-slate-500"></i></td>
                         <td><i class="fa-solid fa-check text-green-500"></i></td>
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">Efficiency management</td>
+                        <td class="border-r border-solid border border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">Web Apps & Databases</td>
                         <td><i class="fa-solid fa-check text-slate-500"></i></td>
                         <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
                         <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
                         <td><i class="fa-solid fa-check text-green-500"></i></td>
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">Program Ability</td>
+                        <td class="border-r border-solid border border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">Debugging & Testing</td>
                         <td><i class="fa-solid fa-check text-slate-500"></i></td>
                         <td><i class="fa-solid fa-check text-slate-500"></i></td>
                         <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
