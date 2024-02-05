@@ -101,8 +101,8 @@
             {/each}
         </div>
         <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">Your <span class="text-violet-400 poppins">Complete</span> Package</h5>
-        <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full">
-            <table class="bg-white text-slate-700 rounded text-center">
+        <div class="flex flex-col overflow-x-auto gap-10 mx-auto w-full max-w-fit">
+            <table class="bg-white text-slate-700 rounded text-center overflow-x-scroll">
                 <thead class="border-b border-solid border-slate-200">
                     <tr class="">
                         <th/>
